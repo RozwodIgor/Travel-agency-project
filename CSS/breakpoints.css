@@ -1,0 +1,56 @@
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 320px) {}
+
+@media only screen and (max-width: 380px) {}
+
+@media only screen and (max-width: 600px) {}
+
+@media only screen and (max-width: 768px) {
+
+    .statistics-content,
+    .workers-content,
+    .about-us-content-container,
+    .contact-main-content {
+        flex-direction: column;
+    }
+
+    .statistics-icon {
+        margin: auto;
+    }
+
+    .workers-content {
+        align-items: center;
+    }
+
+    .workers-card {
+        margin: 25px 0;
+    }
+
+    .about-us-content-container {
+        align-items: center;
+    }
+
+    .about-us-content {
+        padding: 0;
+        margin: 35px 0;
+    }
+
+    .about-us-left,
+    .about-us-right {
+        max-width: 100%;
+    }
+
+    .contact-main-content {
+        padding: 40px 9px;
+    }
+
+    .contact-form-text {
+        padding: 10px 20px;
+    }
+
+    .contact-form-text,
+    .contact-form {
+        width: 100%;
+    }
+}

@@ -1,0 +1,367 @@
+/*GLOBAL STYLES*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.jumbotron,
+.statistics-section,
+.about-us-section,
+.contact-section,
+.footer-wrapper {
+    border-radius: 0;
+}
+
+.statistics,
+.workers,
+.about-us,
+.contact,
+.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.header-section {
+    text-align: center;
+    padding-top: 0;
+    margin-bottom: 4rem;
+    padding: 1rem;
+    letter-spacing: 2px;
+}
+
+.form-control {
+    color: black;
+}
+
+/*FONT-SIZE*/
+.jumbotron-first-text,
+.statistics-text,
+.workers-text,
+.workers-position {
+    font-size: 1rem;
+}
+
+.jumbotron-second-text,
+.nav-link,
+.btn-group-lg>.btn,
+.btn-lg {
+    font-size: 1.1rem;
+}
+
+/*IMAGES SIZE*/
+.workers-image,
+.about-us-image,
+.statistics-image {
+    width: 100%;
+}
+
+/*HEADER LOGO*/
+.bg-light {
+    background-color: white !important;
+}
+
+.logo-wrapper {
+    padding: 15px;
+}
+
+.logo-image {
+    width: 100%;
+    max-width: 70px;
+    height: 100%;
+}
+
+/*HEADER -NAV SECTION*/
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.nav-item {
+    margin: 0 5px;
+}
+
+.nav-item>.active {
+    border-color: #007bff;
+    color: black;
+}
+
+.nav-item>a {
+    padding: .5rem 0;
+    margin: 0 15px;
+    border-bottom: 1.5px solid #f8f9fa;
+}
+
+.nav-link {
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: gray;
+}
+
+.nav-link:hover {
+    color: black;
+    border-color: #007bff;
+}
+
+/*JUMBOTRON SECTION*/
+.jumbotron {
+    background-image: url('./images/jumbotron.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0;
+}
+
+.jumbotron-content {
+    background-color: rgba(0, 0, 0, 0.781);
+    padding: 35px;
+    border-radius: 30px;
+    color: white;
+    position: relative;
+    text-align: right;
+}
+
+.jumbotron-header,
+.jumbotron-first-text,
+.jumbotron-second-text {
+    text-align: left;
+}
+
+.jumbotron-header::first-letter {
+    color: #007bff;
+    font-weight: bolder;
+}
+
+.jumbotron-line {
+    border: .4px solid white;
+    border-radius: 5px;
+}
+
+/*STATISTICS SECTION*/
+.statistics>.header-section,
+.about-us>.header-section {
+    border-bottom: 2px solid whitesmoke;
+}
+
+.statistics-icon {
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1.5px solid black;
+}
+
+.statistics-count {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #007bff;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.statistics-text {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.statistics-bottom-text {
+    border-top: 2px solid whitesmoke;
+    padding-top: 1rem;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.statistics-content,
+.workers-content {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+
+.statistics-card,
+.workers-card {
+    text-align: center;
+}
+
+/*WORKERS SECTION*/
+.workers>.header-section {
+    background-color: whitesmoke;
+    border-radius: 35px;
+    box-shadow: inset 0px 0px 7px 5px rgba(0, 0, 0, 0.75);
+}
+
+.workers-card {
+    height: 275px;
+    width: 200px;
+    background-color: white;
+    box-shadow: inset 0px 0px 7px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.workers-icon {
+    filter: grayscale(1);
+}
+
+.workers-card:hover .workers-icon {
+    filter: grayscale(0);
+}
+
+.workers-position {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    padding: .6rem;
+    margin-bottom: 0;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.workers-text {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    padding: .6rem;
+    margin-bottom: 0;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.workers-section {
+    background: url('./images/background-wall.jpg');
+    background-size: cover;
+    filter: saturate(0.7);
+}
+
+/*ABOUT SECTION*/
+.about-us-left,
+.about-us-right {
+    max-width: 55%;
+}
+
+.about-us-left {
+    padding-right: 25px;
+}
+
+.about-us-right {
+    padding-left: 25px;
+}
+
+.about-us-header {
+    margin-bottom: 0rem;
+    margin-top: 5rem;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.about-us-content-container {
+    display: flex;
+    position: relative;
+    padding: 30px 0;
+}
+
+.about-us-image {
+    max-width: 440px;
+    transform: rotate(-4deg);
+    box-shadow: 4px 5px 11px 2px black;
+    border: 6px solid lightgray;
+    filter: blur(0.1px);
+}
+
+.about-us-sub-text {
+    text-align: justify;
+}
+
+.about-us-button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.about-us-sub-header {
+    color: #007bff;
+}
+
+/*CONTACT SECTION*/
+.contact-section {
+    background-color: #444;
+}
+
+.contact-header-section {
+    background-color: white;
+    box-shadow: inset 0px 0px 13px 5px rgba(0, 0, 0, 0.35);
+    color: black;
+    border-radius: 35px;
+    border: 1px solid black;
+}
+
+.contact-main-content {
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.contact-main-content {
+    display: flex;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 13px 5px rgba(0, 0, 0, 0.35);
+}
+
+.contact-form-text {
+    width: 50%;
+    text-align: center;
+    padding: 10px 50px;
+}
+
+.contact-form-h4 {
+    padding: 5px;
+    border-bottom: 2px solid whitesmoke;
+    padding: 10px 0;
+}
+
+.contact-form-h4::first-letter {
+    color: #007bff;
+}
+
+.contact-form-p {
+    text-align: justify;
+}
+
+.contact-form {
+    background-color: #444;
+    width: 50%;
+    padding: 30px 20px;
+    border-radius: 20px;
+    border: 2px solid #007bff;
+}
+
+.contact-form label {
+    color: white;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    border: 2px solid #007bff;
+}
+
+/* FOOTER SECTION*/
+.footer-wrapper {
+    background-color: #444;
+}
+
+.footer-wrapper>.container {
+    border-top: 2px solid #007bff;
+    text-align: center;
+    color: white;
+    font-size: .75rem;
+    padding: 10px;
+}
